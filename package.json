@@ -1,0 +1,16 @@
+{
+  "name": "building-react-redux-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ttr89/building-react-redux-app.git",
+  "author": "<tin.tran@neuromeka.com>",
+  "license": "MIT",
+  "scripts": {
+    "server": "nodemon --watch server --exec babel-node -- server/index-babel.js"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "express": "^4.16.3"
+  }
+}
